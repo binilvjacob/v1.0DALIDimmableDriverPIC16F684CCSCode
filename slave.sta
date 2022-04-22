@@ -1,0 +1,70 @@
+
+ROM used:   1868/2048 (91%)
+            1868/2048 (91%) including unused fragments
+
+            0.3 Average locations per line
+            1.5 Average locations per statement
+
+RAM used:   65/128 (51%) at main() level
+            82/128 (64%) worst case
+
+Stack used: 6 worst case (4 in main + 2 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  929   519  41  slave.c
+   16     0   0  slave.h
+  619     0   0  C:\Program Files (x86)\PICC\devices\16F684.h
+ 2229   257  20  C:\Program Files (x86)\PICC\drivers\math.h
+ 1351   359  28  C:\Program Files (x86)\PICC\drivers\STDLIB.H
+   32     0   0  C:\Program Files (x86)\PICC\drivers\stddef.h
+  423   125  10  C:\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 5627  1260 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     37   2    2             @MUL88
+ Inline         1             @delay_ms2
+ Inline         1             @delay_us2
+0     30   2    0   420  3.3  EXT_isr
+0    205  11    1   794  6.7  TIMER1_isr
+0    105   6    0   404  5.1  RTCC_isr
+0    205  11    2  1290  8.3  MAIN
+0     40   2    0   372  3.3  init
+0    729  39    0    59  1.9  handle
+0     83   4    1   759  4.3  txmit1
+ Inline         1   576  4.8  txmit0
+0    111   6    3   643  8.3  txmit
+0     29   2    1    56  1.9  stopbit
+ Inline         2  2181  8.4  readData
+0     27   1    0   444  4.3  copyData
+ Inline         2  5397 11.9  commands
+0      6   0    0    42  1.7  lamp_on
+0      5   0    0    42  1.7  lamp_off
+0     82   4    2   502  5.2  SetDimmLevel
+0    110   6    2   436  2.4  init_from_eeprom
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              1260
+    Comments                1244
+    Volume (V)              21727
+    Difficulty (D)          85.4
+    Effort to implement (E) 1855326
+    Time to implement (T)   28 hours, 38 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   89
+    Maintainability (MI)    95
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0003F    60  0  
+00040-007FF  1804  180  
+
+
+

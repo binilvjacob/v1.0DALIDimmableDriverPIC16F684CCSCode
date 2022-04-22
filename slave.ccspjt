@@ -1,0 +1,16 @@
+[PROJECT]
+Target=slave.hex
+Processor_Text=PIC16F684
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=slave.c
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\drivers\;D:\work for home automation\PROJECTS\jottin thrikkakara c.o nobel\684 dali withspeeded remote with autotime V.2\;C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\;D:\Program Files (x86)\PICC\devices\;D:\Program Files (x86)\PICC\drivers\
+[slave.c]
+Type=4
+[mru-list]
+1=slave.c
+[Units]
+Count=1
+1=slave (main)

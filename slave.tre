@@ -1,0 +1,71 @@
+ÀÄslave
+   ÃÄMAIN  0/205  Ram=2
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄinit_from_eeprom  0/110  Ram=2
+   ³  ÃÄinit  0/40  Ram=0
+   ³  ÃÄlamp_off  0/5  Ram=0
+   ³  ³  ÀÄSetDimmLevel  0/82  Ram=2
+   ³  ³     ÃÄ@MUL88  0/37  Ram=2
+   ³  ³     ÃÄ@MUL88  0/37  Ram=2
+   ³  ³     ÀÄ@MUL88  0/37  Ram=2
+   ³  ÃÄSetDimmLevel  0/82  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlamp_on  0/6  Ram=0
+   ³  ³  ÀÄSetDimmLevel  0/82  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄhandle  0/729  Ram=0
+   ³  ³  ÃÄcommands  (Inline)  Ram=2
+   ³  ³  ³  ÃÄlamp_on  0/6  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSetDimmLevel  0/82  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlamp_on  0/6  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlamp_off  0/5  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSetDimmLevel  0/82  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSetDimmLevel  0/82  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlamp_off  0/5  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlamp_on  0/6  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSetDimmLevel  0/82  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄinit_from_eeprom  0/110  Ram=2
+   ³  ³  ³  ÃÄtxmit  0/111  Ram=3
+   ³  ³  ³  ³  ÃÄtxmit1  0/83  Ram=1
+   ³  ³  ³  ³  ÃÄtxmit1  0/83  Ram=1
+   ³  ³  ³  ³  ÃÄtxmit0  (Inline)  Ram=1
+   ³  ³  ³  ³  ÃÄstopbit  0/29  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ@delay_us2  (Inline)  Ram=1
+   ³  ³  ³  ³  ÃÄstopbit  0/29  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄstopbit  0/29  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄstopbit  0/29  Ram=1
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄtxmit  0/111  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄtxmit  0/111  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄtxmit  0/111  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄtxmit  0/111  Ram=3
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÀÄ@delay_ms2  (Inline)  Ram=1
+   ³  ÃÄhandle  0/729  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄhandle  0/729  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄhandle  0/729  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÀÄtxmit  0/111  Ram=3
+   ³     ÀÄ*
+   ÃÄEXT_isr  0/30  Ram=0
+   ÃÄTIMER1_isr  0/205  Ram=1
+   ³  ÀÄreadData  (Inline)  Ram=2
+   ³     ÃÄcopyData  0/27  Ram=0
+   ³     ÀÄcopyData  0/27  Ram=0
+   ÀÄRTCC_isr  0/105  Ram=0
