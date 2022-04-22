@@ -1,6 +1,6 @@
-CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 14:57
+CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 15:35
 
-               Filename:   D:\LiHome\Version 1 codes\DALI LED dimmable driver pic16f684 code\SLAVE 684 - modified retransmision\slave.lst
+               Filename:   D:\LiHome\Version 1 codes\DALI dimmable driver pic16f684 code\SLAVE 684 - modified retransmision\slave.lst
 
                ROM used:   1868 words (91%)
                            Largest free fragment is 180
@@ -2373,7 +2373,7 @@ CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 14:57
 ....................  
 .................... #endif 
 ....................  
-.................... #include <STDLIB.H> 
+.................... #include <STDLIB.H>																			// Code Version 1	v1.00 
 .................... /////////////////////////////////////////////////////////////////////////// 
 .................... ////        (C) Copyright 1996,2007 Custom Computer Services           //// 
 .................... //// This source code may only be used by licensed users of the CCS C  //// 
@@ -4275,9 +4275,7 @@ CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 14:57
 .................... #endif 
 ....................  
 ....................  
-.................... 																			// Code Version 1	v1.0 
-....................  
-.................... #use delay(clock=4000000)			// Internal clock of 4MHz 
+.................... #use delay(clock=4000000)			// Internal clock of 4 MHz 
 *
 0322:  MOVLW  12
 0323:  SUBWF  62,F

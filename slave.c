@@ -1,10 +1,8 @@
 #include <slave.h>					// Config file
 #include<math.h>
-#include <STDLIB.H>
+#include <STDLIB.H>																			// Code Version 1	v1.00
 
-																			// Code Version 1	v1.0
-
-#use delay(clock=4000000)			// Internal clock of 4MHz
+#use delay(clock=4000000)			// Internal clock of 4 MHz
 
 /////////////////////////////////////////////////////////////////////// CONFIGURATION PART START /////////////////////////////////////////////////////////////////////////////
 

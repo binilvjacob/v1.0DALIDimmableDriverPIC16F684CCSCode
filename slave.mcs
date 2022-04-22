@@ -54,6 +54,9 @@ ToolArgsString=
 TraceCmdString=
 DebugOptions=
 [File004]
+Location=D:\LiHome\Version 1 codes\DALI dimmable driver pic16f684 code\SLAVE 684 - modified retransmision\slave.o
+Folder=Intermediary
+[File005]
 Location=C:\LiHome\home automation codes\nisar house\SLAVE 684 - modified retransmision\slave.HEX
 Folder=Output
 DeviceName=
@@ -66,7 +69,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File005]
+[File006]
 Location=C:\LiHome\home automation codes\nisar house\SLAVE 684 - modified retransmision\slave.LST
 Folder=Output
 DeviceName=
@@ -79,7 +82,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File006]
+[File007]
 Location=C:\LiHome\home automation codes\nisar house\SLAVE 684 - modified retransmision\slave.ERR
 Folder=Output
 DeviceName=
@@ -92,7 +95,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File007]
+[File008]
 Location=C:\LiHome\home automation codes\nisar house\SLAVE 684 - modified retransmision\slave.COF
 Folder=Output
 DeviceName=
@@ -105,7 +108,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File008]
+[File009]
 Location=slave.HEX
 Folder=Output
 DeviceName=
@@ -118,7 +121,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File009]
+[File010]
 Location=slave.LST
 Folder=Output
 DeviceName=
@@ -131,7 +134,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File010]
+[File011]
 Location=slave.ERR
 Folder=Output
 DeviceName=
@@ -144,7 +147,7 @@ SuiteArgsString=
 ToolArgsString=
 TraceCmdString=
 DebugOptions=
-[File011]
+[File012]
 Location=slave.COF
 Folder=Output
 DeviceName=

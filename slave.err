@@ -1,6 +1,6 @@
->>> Warning 208 "slave.c" Line 99(1,8): Function not void and does not return a value  EXT_isr
->>> Warning 208 "slave.c" Line 172(1,9): Function not void and does not return a value  RTCC_isr
->>> Warning 202 "slave.c" Line 68(5,16): Variable never used:   error_value
+>>> Warning 208 "slave.c" Line 97(1,8): Function not void and does not return a value  EXT_isr
+>>> Warning 208 "slave.c" Line 170(1,9): Function not void and does not return a value  RTCC_isr
+>>> Warning 202 "slave.c" Line 66(5,16): Variable never used:   error_value
       Memory usage:   ROM=91%      RAM=51% - 64%
       0 Errors,  3 Warnings.
 Build Successful.

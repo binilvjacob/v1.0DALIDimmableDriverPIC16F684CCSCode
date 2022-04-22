@@ -13,7 +13,7 @@ Stack size: 8
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
-  929   519  41  slave.c
+  927   519  41  slave.c
    16     0   0  slave.h
   619     0   0  C:\Program Files (x86)\PICC\devices\16F684.h
  2229   257  20  C:\Program Files (x86)\PICC\drivers\math.h
@@ -22,7 +22,7 @@ Lines Stmts  %   Files
   423   125  10  C:\Program Files (x86)\PICC\drivers\string.h
    28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
 ----- -----
- 5627  1260 Total
+ 5625  1260 Total
 
 Page ROM  %  RAM   Vol Diff  Functions:
 ---- --- --- ---   --- ----  ----------
@@ -51,14 +51,14 @@ Page ROM  %  RAM   Vol Diff  Functions:
 Program metrics:
     Functions               17
     Statements              1260
-    Comments                1244
+    Comments                1243
     Volume (V)              21727
     Difficulty (D)          85.4
     Effort to implement (E) 1855326
     Time to implement (T)   28 hours, 38 minutes
     Est Delivered Bugs (B)  5
     Cyclomatic Complexity   89
-    Maintainability (MI)    95
+    Maintainability (MI)    94
 
  Segment     Used  Free
 -----------  ----  ----
