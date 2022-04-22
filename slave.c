@@ -6,7 +6,7 @@
 
 /////////////////////////////////////////////////////////////////////// CONFIGURATION PART START /////////////////////////////////////////////////////////////////////////////
 
-#define Fixlampid   1 				// LAMP Address range 0-63
+#define Fixlampid   1 				// LAMP Address range 0-63.
 #define zoneid_init   210			// Zone Address range 207-223
 #define device_type 4 				// Device type. 1 - normal led driver, 2 - fan driver, 3 - curtain driver, 4 - strip led driver, 5 - TRIAC MOSFET driver
 
