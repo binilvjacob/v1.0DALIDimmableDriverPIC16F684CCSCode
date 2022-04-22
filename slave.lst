@@ -1,4 +1,4 @@
-CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 15:35
+CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 15:44
 
                Filename:   D:\LiHome\Version 1 codes\DALI dimmable driver pic16f684 code\SLAVE 684 - modified retransmision\slave.lst
 
@@ -4318,7 +4318,7 @@ CCS PCM C Compiler, Version 5.015, 5967               22-Apr-22 15:35
 ....................  
 .................... /////////////////////////////////////////////////////////////////////// CONFIGURATION PART START ///////////////////////////////////////////////////////////////////////////// 
 ....................  
-.................... #define Fixlampid   1 				// LAMP Address range 0-63 
+.................... #define Fixlampid   1 				// LAMP Address range 0-63. 
 .................... #define zoneid_init   210			// Zone Address range 207-223 
 .................... #define device_type 4 				// Device type. 1 - normal led driver, 2 - fan driver, 3 - curtain driver, 4 - strip led driver, 5 - TRIAC MOSFET driver 
 ....................  

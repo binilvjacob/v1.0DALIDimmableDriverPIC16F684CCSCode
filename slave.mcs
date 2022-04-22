@@ -56,6 +56,16 @@ DebugOptions=
 [File004]
 Location=D:\LiHome\Version 1 codes\DALI dimmable driver pic16f684 code\SLAVE 684 - modified retransmision\slave.o
 Folder=Intermediary
+DeviceName=
+LanguageToolSuiteID=
+LanguageToolID=
+LanguageToolLocation=
+PPAD=
+SOLK=
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=
 [File005]
 Location=C:\LiHome\home automation codes\nisar house\SLAVE 684 - modified retransmision\slave.HEX
 Folder=Output
